@@ -1,0 +1,176 @@
+/*Variables*/
+/* SCSS*/
+.pagina__fondo {
+  background-color: #c8e8dd; }
+
+.header__promociones {
+  font: 700 16px "roboto";
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  position: fixed;
+  background-color: #c8e8dd;
+  padding: 0px 540px 0px 540px;
+  z-index: 100000000000;
+  transition: all 2s; }
+
+.header__promociones:hover {
+  background-color: #64e0b5;
+  transition: all 2s; }
+
+.header__titulo {
+  text-decoration: none;
+  color: #000;
+  text-align: left;
+  font-family: roboto;
+  background-color: #c8e8dd;
+  padding: 15px; }
+
+.header__buscador {
+  padding-top: 35px; }
+
+p {
+  font: 400 16px "roboto"; }
+
+.titulos {
+  font: 900 30px "roboto";
+  text-align: center; }
+
+.fuente__cuadros {
+  font: 500 16px "roboto"; }
+
+.quienessomos__texto {
+  font: 400 16px "roboto";
+  border: solid 10px black; }
+
+@media only screen and (min-width: 340px) {
+  .productos__titulos {
+    font-family: roboto;
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+    text-align: left; }
+  .productos__grid {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 350px 350px 350px 350px;
+    justify-content: left;
+    align-items: center; }
+    .productos__grid div img {
+      height: 200px;
+      width: 200px; }
+    .productos__grid div p {
+      width: 200px;
+      font-weight: 700;
+      justify-content: center; }
+  .header__grid {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px;
+    background-color: #c8e8dd;
+    justify-content: left;
+    align-items: left; }
+    .header__grid div {
+      height: 50px;
+      width: 10px;
+      background-color: #c8e8dd;
+      transition: all 2s; }
+    .header__grid div:hover {
+      background-color: #63DFB4;
+      transition: all 2s; }
+    .header__grid div p {
+      text-align: center;
+      font-family: roboto;
+      font-weight: 500;
+      font-size: 10px;
+      color: #000;
+      border: solid 1px #000;
+      border-top: 0px;
+      border-bottom: 0px;
+      border-left: 0px; }
+  .footer__grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px;
+    background-color: #f9f6cb;
+    font-family: roboto;
+    justify-content: center;
+    align-items: center; }
+    .footer__grid .footer--contacto {
+      width: 300px;
+      height: 150px;
+      text-align: center; }
+    .footer__grid .footer--ayuda {
+      width: 320px;
+      height: 150px;
+      text-align: center; }
+    .footer__grid .footer--redes {
+      width: 300px;
+      height: 150px;
+      text-align: center; }
+  .footer--derechos {
+    font-family: Roboto;
+    text-align: center; } }
+
+@media only screen and (min-width: 992px) {
+  .productos__titulos {
+    font: 900 30px "roboto"; }
+  .productos__grid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 350px 350px 350px 350px;
+    justify-content: center;
+    align-items: center; }
+    .productos__grid div img {
+      height: 200px;
+      width: 200px; }
+    .productos__grid div p {
+      width: 200px;
+      font-weight: 700;
+      justify-content: center; }
+  .header__grid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 50px;
+    justify-content: center;
+    transition: all 2s; }
+    .header__grid div {
+      height: 50px;
+      width: 150px; }
+    .header__grid div p {
+      text-align: center;
+      font-family: roboto;
+      font-weight: 500;
+      font-size: 16px;
+      color: #000;
+      border: solid 1px #000;
+      border-top: 0px;
+      border-bottom: 0px;
+      border-left: 0px; }
+  .footer__grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px;
+    background-color: #f9f6cb;
+    font-family: roboto;
+    justify-content: center;
+    align-items: center; }
+    .footer__grid .footer--contacto {
+      width: 300px;
+      height: 150px;
+      text-align: center; }
+    .footer__grid .footer--ayuda {
+      width: 320px;
+      height: 150px;
+      border: solid 1px #000;
+      padding-left: 20px;
+      border-top: 0px;
+      border-bottom: 0px;
+      text-align: left; }
+    .footer__grid .footer--redes {
+      width: 300px;
+      height: 150px;
+      text-align: center; }
+  .footer--derechos {
+    font-family: Roboto;
+    text-align: center; } }
