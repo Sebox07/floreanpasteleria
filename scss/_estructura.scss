@@ -5,17 +5,8 @@
     background-repeat: repeat-y;
 }
 
-.header__promociones {
-	font: $texto-promociones; text-align: center; text-decoration: none; color: black;
-	position: fixed;
-  	background-color:#f9f6cb;
-  	padding: 0px 540px 0px 540px;
-    z-index: 100000000000;
-    transition: all 2s;
-}
-
 .header__promociones:hover {
-    background-color: #64e0b5;
+    background-color: #ada200;
     transition: all 2s;
     }
 
@@ -45,7 +36,7 @@ p {
 
 .quienessomos__texto {
     font: $textos;
-    border: solid 10px black;
+    text-align: center;
 }
 
 @media only screen and (min-width: 340px)  {
@@ -56,7 +47,16 @@ p {
 		font-size: 30px;
 		color: black;
 		text-align: left;
-	}
+    }
+    
+    .header__promociones {
+        font: $texto-promociones; text-align: center; text-decoration: none; color: black;
+        position: fixed;
+          background-color:#f9f6cb;
+          padding: 0px 200px 0px 200px;
+        z-index: 100000000000;
+        transition: all 2s;
+    }
 
     .header__titulo {
         height: 150px;
@@ -162,6 +162,15 @@ p {
 
     .header__titulo {
         height: 200px;
+    }
+
+    .header__promociones {
+        font: $texto-promociones; text-align: center; text-decoration: none; color: black;
+        position: fixed;
+          background-color:#f9f6cb;
+          padding: 0px 400px 0px 400px;
+        z-index: 100000000000;
+        transition: all 2s;
     }
 
     .header__buscador {
@@ -271,6 +280,15 @@ p {
                     font-weight: 700;
                     text-align: center;
                 }
+    }
+
+    .header__promociones {
+        font: $texto-promociones; text-align: center; text-decoration: none; color: black;
+        position: fixed;
+          background-color:#f9f6cb;
+          padding: 0px 800px 0px 800px;
+        z-index: 100000000000;
+        transition: all 2s;
     }
 
     .header__titulo {

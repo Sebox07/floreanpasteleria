@@ -5,19 +5,8 @@
   background-repeat: repeat-x;
   background-repeat: repeat-y; }
 
-.header__promociones {
-  font: 700 16px "roboto";
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  position: fixed;
-  background-color: #f9f6cb;
-  padding: 0px 540px 0px 540px;
-  z-index: 100000000000;
-  transition: all 2s; }
-
 .header__promociones:hover {
-  background-color: #64e0b5;
+  background-color: #ada200;
   transition: all 2s; }
 
 .header__titulo {
@@ -44,7 +33,7 @@ p {
 
 .quienessomos__texto {
   font: 400 16px "roboto";
-  border: solid 10px black; }
+  text-align: center; }
 
 @media only screen and (min-width: 340px) {
   .productos__titulos {
@@ -53,6 +42,16 @@ p {
     font-size: 30px;
     color: black;
     text-align: left; }
+  .header__promociones {
+    font: 700 16px "roboto";
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    background-color: #f9f6cb;
+    padding: 0px 200px 0px 200px;
+    z-index: 100000000000;
+    transition: all 2s; }
   .header__titulo {
     height: 150px; }
   .header__buscador {
@@ -144,6 +143,16 @@ p {
     text-align: left; }
   .header__titulo {
     height: 200px; }
+  .header__promociones {
+    font: 700 16px "roboto";
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    background-color: #f9f6cb;
+    padding: 0px 400px 0px 400px;
+    z-index: 100000000000;
+    transition: all 2s; }
   .header__buscador {
     padding-top: 75px; }
   .productos__grid {
@@ -240,6 +249,16 @@ p {
       width: 200px;
       font-weight: 700;
       text-align: center; }
+  .header__promociones {
+    font: 700 16px "roboto";
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    background-color: #f9f6cb;
+    padding: 0px 800px 0px 800px;
+    z-index: 100000000000;
+    transition: all 2s; }
   .header__titulo {
     height: 200px; }
   .header__buscador {
