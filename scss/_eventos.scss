@@ -1,0 +1,105 @@
+/*--------------------------------------------------------------
+# Eventos rgba(12, 11, 10, 0.8)
+--------------------------------------------------------------*/
+.eventos {
+    background: url(../img/events-bg.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .eventos::before {
+    content: '';
+    background-color: #c8e8dd;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .eventos .section-title h2 {
+    color: #6c665c;
+  }
+  
+  .eventos .container {
+    position: relative;
+  }
+  
+  @media (min-width: 1024px) {
+    .eventos {
+      background-attachment: fixed;
+    }
+  }
+  
+  .eventos .events-carousel {
+    background: #6c665c;
+    padding: 30px;
+  }
+  
+  .eventos .event-item {
+    color: #fff;
+  }
+  
+  .eventos .event-item h3 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #f9f6cb;
+  }
+  
+  .eventos .event-item .price {
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .eventos .event-item .price span {
+    border-bottom: 2px solid #f9f6cb;
+  }
+  
+  .eventos .event-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .eventos .event-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .eventos .event-item ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #f9f6cb;
+  }
+  
+  .eventos .event-item p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .eventos .owl-nav, .eventos .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .eventos .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd !important;
+  }
+  
+  .eventos .owl-dot.active {
+    background-color: #f9f6cb !important;
+  }
+
+  .titulo span {
+    color: #f9f6cb;
+  }
+  
+  @media (min-width: 992px) {
+    .eventos .testimonial-item p {
+      width: 80%;
+    }
+  }

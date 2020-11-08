@@ -1,0 +1,213 @@
+/*--------------------------------------------------------------
+# sobre florean
+--------------------------------------------------------------*/
+.quienes-somos {
+    background: #c8e8dd;
+  }
+  
+  .quienes-somos .content {
+    padding: 0 80px;
+  }
+  
+  .quienes-somos .content h3 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #6c665c;
+  }
+  
+  .quienes-somos .content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  
+  .quienes-somos .content p {
+    font-size: 15px;
+    color: #848484;
+  }
+  
+  .quienes-somos .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quienes-somos .content ul li + li {
+    margin-top: 15px;
+  }
+  
+  .quienes-somos .content ul li {
+    position: relative;
+    padding-left: 26px;
+  }
+  
+  .quienes-somos .content ul i {
+    font-size: 20px;
+    color: #6c665c;
+    position: absolute;
+    left: 0;
+    top: 2px;
+  }
+  
+  .quienes-somos .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .quienes-somos .video-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+    position: relative;
+  }
+  
+  .quienes-somos .play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#f9f6cb 50%, rgba(255, 245, 109, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    overflow: hidden;
+  }
+  
+  .quienes-somos .play-btn::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #000;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  .quienes-somos .play-btn::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate-btn 2s;
+    animation: pulsate-btn 2s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(249, 246, 203, 0.7);
+    top: -15%;
+    left: -15%;
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  .quienes-somos .play-btn:hover::after {
+    border-left: 15px solid #9dffdd;
+    transform: scale(20);
+  }
+  
+  .quienes-somos .play-btn:hover::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #000;
+    z-index: 200;
+    -webkit-animation: none;
+    animation: none;
+    border-radius: 0;
+  }
+  
+  @media (max-width: 1024px) {
+    .quienes-somos .content, .about .accordion-list {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .quienes-somos .content {
+      padding-top: 30px;
+    }
+    .quienes-somos .accordion-list {
+      padding-bottom: 30px;
+    }
+  }
+  
+  @-webkit-keyframes pulsate-btn {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes pulsate-btn {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+  }
+
+/*--------------------------------------------------------------
+# por que florean
+--------------------------------------------------------------*/
+.por-que-florean .box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .por-que-florean .box span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #5f5950;
+  }
+  
+  .por-que-florean .box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #5f5950;
+  }
+  
+  .por-que-florean .box p {
+    color: #aaaaaa;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .por-que-florean .box:hover {
+    background: #f9f6cb;
+    padding: 30px 30px 70px 30px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  }
+  
+  .por-que-florean .box:hover span, .por-que-florean .box:hover h4, .por-que-florean .box:hover p {
+    color: #000;
+  }
